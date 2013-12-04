@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/silent"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/off_grey"
+        android:orientation="horizontal"
+        android:paddingBottom="3dp" >
+
+        <ImageButton
+            android:id="@+id/btnSilent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#555"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/silent" />
+    </LinearLayout>
+
+</LinearLayout>
